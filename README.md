@@ -1,4 +1,4 @@
-# Reconnasiance
+# Reconnasiance/Footprinting
 <details>
   <summary>Recon</summary>
 
@@ -23,6 +23,8 @@
 
 nmap -Pn -sS -A -oA -vv <Filename> 10.10.1.1/24
 ```
-
-
+* Convert Nmap XML file to [HTML Report](https://nmap.org/book/output-formats-output-to-html.html/)
+```console
+xsltproc <nmap-output.xml> -o <nmap-output.html>
+```
 </details>
