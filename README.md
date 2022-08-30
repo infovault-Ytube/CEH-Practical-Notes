@@ -1,7 +1,7 @@
 # test1
 
 <details>
-  <summary>Click me</summary>
+  <summary>Recon</summary>
   
   ### Heading
   1. Foo
@@ -10,9 +10,7 @@
      * Qux
 
   ### Some Code
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
+  ```console
+foo@bar:~$ Ping host -f -l 1300
   ```
 </details>
