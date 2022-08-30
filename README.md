@@ -3,14 +3,14 @@
   <summary>Recon</summary>
 
 * -f switch do not fragment, -l buffer size
-  ```console
+```console
 :~$ ping <host-ip> -f -l 1300
-  ```
+```
   
 * __`tracert`__ for windows cmd
   ```console
 :~$ traceroute <host-ip>
-  ```
+```
 * [Path Analyzer Pro](https://www.pathanalyzer.com/download.opp/) in traceroute tools, ensure icmp and smart is selected, stop on control is selected
 
 * Start Metasploit Console
