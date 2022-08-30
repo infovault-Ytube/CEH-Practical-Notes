@@ -18,7 +18,7 @@
 ```
 * Nmap Scanning entire Network
 
-```shell
+```console
 # Don’t ping=> -Pn, SYN scan=> -sS, Aggresive Scan=> -A, Normal_XML and Grepable format all at once=> -oA, Verbose=> -vv 
 
 nmap -Pn -sS -A -oA -vv <Filename> 10.10.1.1/24
