@@ -27,7 +27,7 @@ nmap -Pn -sS -A -oA -vv <Filename> 10.10.1.1/24
 ```console
 xsltproc <nmap-output.xml> -o <nmap-output.html>
 ```
-```console
+```shell
 # Scanning SMB Version for OS Detection using Metaspolit
 use scanner/smb/smb_version
 show options 
