@@ -33,9 +33,9 @@ use scanner/smb/smb_version
 show options 
 set RHOSTS 10.10.10.8-16 
 set THREADS 100 
-  run
+run
   
-# Type hosts again and os_flavor will be visible
+#Type hosts again and os_flavor will be visible
   hosts
 ```
 </details>
