@@ -27,6 +27,17 @@ nmap -Pn -sS -A -oA -vv <Filename> 10.10.1.1/24
 ```console
 xsltproc <nmap-output.xml> -o <nmap-output.html>
 ```
+```console
+# Scanning SMB Version for OS Detection using Metaspolit
+use scanner/smb/smb_version
+show options 
+set RHOSTS 10.10.10.8-16 
+set THREADS 100 
+  run
+  
+# Type hosts again and os_flavor will be visible
+  hosts
+```
 </details>
 
 # Reconnasiance/Footprinting
