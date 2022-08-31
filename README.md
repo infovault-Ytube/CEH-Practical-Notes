@@ -54,10 +54,10 @@ run
 # ENUMERATION
 <details>
   <summary></summary>
+* [Advanced IP Scanner](ipscan25.exe) of windows
+Specify IP range and start. Right click on alive hosts to perform actions, e.g. shutdown. Use Radmin for advanced features.
 
-* -1 for ICMP ping scan, ICMP-echo request randomly (--rand-dest)
-```console
-:~$ hping3 -1 10.0.1.255 --rand-dest –I eth0 
-```
-* [Angry IP Scanner](https://angryip.org/download/#windows) of windows to Scan Entire Network
+*[Hyena](https://www.systemtools.com/hyena/download.htm)
+Expand local workstation to view Users, Services, User Rights, Scheduled Jobs 
+
 </details>
