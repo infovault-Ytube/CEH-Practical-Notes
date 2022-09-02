@@ -103,7 +103,27 @@ enum4linux -A <Target_IP>
 ```
 </details>
   
-  # VULNERABILTY Analysis
+  # Vulnerability Analysis
 <details>
   <summary>Vulerability</summary>
+  
+ * Nessus: Assest vulnerability scanner
+ * Nikto: Web Server scanner
+```console
+nikto -h www.example.com tuning 1
+  ```
+  </details>
+  
+# System Hacking
+<details>
+  <summary> Sys password Hacking</summary>
+
+```
+# To Dump Windows SAM file hashes
+pwDump7.exe> hashes.txt 
+```
+
+  * Ophcrack.exe : To Crack SAM Hashes to obtain clear Password
+  * rcrack_gui.exe : > Use Raindow Table to crack hashes
+  
   </details>
