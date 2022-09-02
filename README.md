@@ -2,6 +2,11 @@
 <details>
   <summary>Recon</summary>
 
+* -r range , Scan Entire Network for ALive host using ARP
+```console
+:~$ netdiscover -r 192.168.29.1/24
+```
+
 * -f switch do not fragment, -l buffer size
 ```console
 :~$ ping <host-ip> -f -l 1300
@@ -54,10 +59,28 @@ run
 # ENUMERATION
 <details>
   <summary>Enum</summary>
-* [Advanced IP Scanner](https://github.com/infovault-Ytube/test1/raw/main/ipscan25.exe) of windows
+* Advanced IP Scanner (https://github.com/infovault-Ytube/test1/raw/main/ipscan25.exe) of windows
 Specify IP range and start. Right click on alive hosts to perform actions, e.g. shutdown. Use Radmin for advanced features.
 
 * [Hyena](https://www.systemtools.com/hyena/download.htm)
 Expand local workstation to view Users, Services, User Rights, Scheduled Jobs 
+
+* [NetBIOS Enumerator](http://nbtenum.sourceforge.net/)
+Enter IP Range and click scan.
+
+* NBT (NetBIOS over TCP/IP), which helps troubleshoot NetBIOS name resolution issues.
+```console
+nbtstat -A 204.224.150.3
+```
+* Accessing Shared Files
+```console.
+# List All Shared Resources
+net view  <IP>
+
+# Connect to Shared Resource
+net use
+net use \\10.10.10.1\e ""\user:""
+net use \\10.10.10.1\e ""/user:""
+```
 
 </details>
