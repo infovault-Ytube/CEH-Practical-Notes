@@ -97,6 +97,13 @@ use auxilary/scanner/snmp/snmp_enum ↵
 set RHOSTS 10.10.1.2 ↵
 exploit ↵
 ```
-
-  
+* Enum4linux: Enumerating information from Windows and Samba systems
+```console
+enum4linux -A <Target_IP>
+```
 </details>
+  
+  # VULNERABILTY Analysis
+<details>
+  <summary>Vulerability</summary>
+  </details>
