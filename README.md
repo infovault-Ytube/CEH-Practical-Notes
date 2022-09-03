@@ -148,7 +148,7 @@ set LPORT=444 ↵
 <details>
 <summary> Stego</summary>
 
-# Hide/unhide text in WhiteSpaces using[snow](http://www.darkside.com.au/snow/)
+##### Hide/unhide text in WhiteSpaces using[snow](http://www.darkside.com.au/snow/)
 
 ```shell
 SNOW.EXE -C -p 1234 -m "Secret Message"  original.txt ciper.txt
@@ -157,5 +157,9 @@ SNOW.EXE -C -p 1234 -m "Secret Message"  original.txt ciper.txt
  
 SNOW.EXE -C -p 1234  ciper.txt
 ```
+> OpenStego : hide any data within a cover file (e.g. images)
+<img src="https://www.openstego.com/image/screenshot/01.png" width="200" height="200" />
+<img src="https://www.openstego.com/image/screenshot/02.png" width="200" height="200" />  
   
+> QuickStego
 </details>
