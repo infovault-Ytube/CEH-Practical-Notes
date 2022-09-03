@@ -122,8 +122,8 @@ nikto -h www.example.com tuning 1
 # To Dump Windows SAM file hashes
 pwDump7.exe> hashes.txt 
 ```
-
-  * Ophcrack.exe : To Crack SAM Hashes to obtain clear Password
-  * rcrack_gui.exe : > Use Raindow Table to crack hashes
+  > pwDump7.exe : To Dump Windows Hashes [PwDump7](https://www.tarasco.org/security/pwdump_7/pwdump7.zip)
+  * [Ophcrack.exe](https://ophcrack.sourceforge.io/download.php?type=ophcrack) : To Crack SAM Hashes to obtain clear Password 
+  * [rcrack_gui.exe](http://project-rainbowcrack.com/) : Use Raindow Table to crack hashes
   
   </details>
