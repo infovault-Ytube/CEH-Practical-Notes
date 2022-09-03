@@ -143,16 +143,17 @@ set LPORT=444 ↵
   run
 ```
 </details>
-_____________________________________________________________________________________________________________________________
 
 # Steganography
 <details>
 <summary> Stego</summary>
-> Hide/unhide text in WhiteSpaces using [snow](http://www.darkside.com.au/snow/)
+> Hide/unhide text in WhiteSpaces using[snow](http://www.darkside.com.au/snow/)
 
 ```shell
 SNOW.EXE -C -p 1234 -m "Secret Message"  original.txt ciper.txt
+ 
 # To unhide the hidden text
+ 
 SNOW.EXE -C -p 1234  ciper.txt
 ```
   
