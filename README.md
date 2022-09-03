@@ -171,6 +171,7 @@ SNOW.EXE -C -p 1234  ciper.txt
 #  LLMNR/NBT-NS Poisoning
 <details>
 <summary> LLMNR/NBT</summary>
+
 > [Responder](https://github.com/lgandx/Responder) : rogue authentication server to capture hashes
 >
 >> This can be used to get the already logged-in user's password, who is trying to access a shared resource which is not present [Step by Step](https://www.4armed.com/blog/llmnr-nbtns-poisoning-using-responder/)
