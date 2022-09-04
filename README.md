@@ -158,7 +158,7 @@ SNOW.EXE -C -p 1234 -m "Secret Message"  original.txt ciper.txt
 SNOW.EXE -C -p 1234  ciper.txt
 ```
   
-###[OpenStego](https://github.com/syvaidya/openstego/releases) : Hide any data within a cover file like Images
+### [OpenStego](https://github.com/syvaidya/openstego/releases) : Hide any data within a cover file like Images
 <img src="https://www.openstego.com/image/screenshot/01.png" width="600" height="400" />
 <img src="https://www.openstego.com/image/screenshot/02.png" width="600" height="400" />  
   
