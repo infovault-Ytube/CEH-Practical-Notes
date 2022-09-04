@@ -329,7 +329,8 @@ sudo hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.43 http-post-fo
    
 * File → Open → Encrypt/Decrypt → Symmetric (Modern) → RC2 → KEY 05 → Decrypt
 
-<img src="Crytool.jpg" />   
+
+   <img src="Crytool.jpg" />   
    
    
   </details> 
