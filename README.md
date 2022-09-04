@@ -319,9 +319,9 @@ sudo hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.43 http-post-fo
 
 ### BCTextEncoder: Text Encode/Decode
    
-<img src=" https://www.jetico.com/file-downloads/web_help/bctextencoder/img/textEncode.png" />   
+<img src="https://www.jetico.com/file-downloads/web_help/bctextencoder/img/textEncode.png" />   
 
-### VeraCrypt: Disk Ebcrypt/Decrypt
+### VeraCrypt: Disk Encrypt/Decrypt
 [Step-By-Step-Tutotrial](https://www.veracrypt.fr/en/Beginner%27s%20Tutorial.html)
 
 ### CrypTool
