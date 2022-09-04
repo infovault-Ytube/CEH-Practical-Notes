@@ -334,10 +334,10 @@ sudo hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.43 http-post-fo
 
   </details> 
 
-  # Android Hacking
-  <details>
-  <summary>ADB</summary>
-  ```shell
+# Android Hacking
+<details>
+<summary>ADB</summary>
+```shell
 
 sudo apt-get install adb -y
 adb devices
@@ -369,13 +369,6 @@ cd Download
 # Download a File from Android
 adb pull /sdcard/log.txt C:\Users\admin\Desktop\log.txt 
 adb pull sdcard/log.txt /home/mmurphy/Desktop
-
-
-```
-
-
-  
-  
-  
-  </details?
+```  
+</details>
   
