@@ -325,8 +325,9 @@ sudo hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.43 http-post-fo
 > [Step-By-Step-Tutotrial](https://www.veracrypt.fr/en/Beginner%27s%20Tutorial.html)
 
 ### CrypTool : Encode/Decode Text (File Extension is .hex)
-File → New → Enter Text → Encrypt/Decrypt → Symmetric (Modern) → RC2 → KEY 05 → Encrypt
-File → Open → Encrypt/Decrypt → Symmetric (Modern) → RC2 → KEY 05 → Decrypt
+* File → New → Enter Text → Encrypt/Decrypt → Symmetric (Modern) → RC2 → KEY 05 → Encrypt 
+   
+* File → Open → Encrypt/Decrypt → Symmetric (Modern) → RC2 → KEY 05 → Decrypt
 
 <img src="Crytool.jpg" />   
    
