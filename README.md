@@ -315,7 +315,7 @@ sudo hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.43 http-post-fo
 
 ### CryptoForge 
 > Encrypt data with Password and only be decoded with cryptoforge by giving password
- <img src="" />   
+ <img src="Cryptoforge.jpg" />   
    
    
   </details> 
