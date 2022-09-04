@@ -316,6 +316,14 @@ sudo hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.43 http-post-fo
 ### CryptoForge 
 > Encrypt data with Password and only be decoded with cryptoforge by giving password
  <img src="Cryptoforge.jpg" />   
+
+### BCTextEncoder: Text Encode/Decode
    
+<img src=" https://www.jetico.com/file-downloads/web_help/bctextencoder/img/textEncode.png" />   
+
+### VeraCrypt: Disk Ebcrypt/Decrypt
+[Step-By-Step-Tutotrial](https://www.veracrypt.fr/en/Beginner%27s%20Tutorial.html)
+
+### CrypTool
    
   </details> 
