@@ -292,3 +292,24 @@ sudo hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.43 http-post-fo
   
 </details>
   
+# Cryptography
+ <details>
+ <summary>Cipering / Encrypting/ Hashes </summary>
+ #### Hash
+ > Find/Decrypt Hash Online with [Hashes.com](https://hashes.com/en/decrypt/hash)
+ 
+ ```shell
+ # In Kali
+ $hash-identifier  
+   
+ #Decrypt Hashes
+ hashcat '5f4dcc3b5aa765d61d8327deb882cf99' /usr/share/wordlists/rockyou.txt
+ ```
+ > Calculate Hash of text/File by [HashCalc](https://www.slavasoft.com/download.htm) in Windows🪟
+ <img src="https://www.slavasoft.com/images/screenshots/hashcalc.png" width="600" height="400" />
+ 
+ > [MD5Calculator](https://www.bullzip.com/download/md5/md5calc(1.0.0.0).zip) in Windows🪟
+ <img src="https://www.bullzip.com/products/md5/dialog.png" width="400" height="400" />
+
+  
+  </details> 
