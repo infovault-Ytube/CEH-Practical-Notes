@@ -313,5 +313,9 @@ sudo hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.43 http-post-fo
 > [MD5Calculator](https://www.bullzip.com/download/md5/md5calc(1.0.0.0).zip) in Windows🪟
  <img src="https://www.bullzip.com/products/md5/dialog.png" />
 
-  
+### CryptoForge 
+> Encrypt data with Password and only be decoded with cryptoforge by giving password
+ <img src="" />   
+   
+   
   </details> 
