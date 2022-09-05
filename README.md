@@ -337,8 +337,10 @@ sudo hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.43 http-post-fo
 # Android Hacking
 <details>
 <summary>ADB</summary>
+
 > (Live Demo of ADB)(https://youtu.be/Hvreb4hjsig)
-```shell
+
+  ```shell
 apt-get update
 sudo apt-get install adb -y
 adb devices -l
