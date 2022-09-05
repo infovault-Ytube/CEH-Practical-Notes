@@ -338,7 +338,7 @@ sudo hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.43 http-post-fo
 <details>
 <summary>ADB</summary>
 
-> (Live Demo of ADB)(https://youtu.be/Hvreb4hjsig)
+> [Live Demo of ADB](https://youtu.be/Hvreb4hjsig)
 
   ```shell
 apt-get update
