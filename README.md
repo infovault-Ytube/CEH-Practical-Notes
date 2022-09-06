@@ -385,3 +385,8 @@ sdcard/Download/secret.txt
  ```  
 </details>
   
+# Covert TCP
+<details>
+  <summary Covert</summary>
+  
+  </details>
