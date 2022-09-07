@@ -355,9 +355,9 @@ adb shell
 adb pull /sdcard/log.txt C:\Users\admin\Desktop\log.txt 
 adb pull sdcard/log.txt /home/mmurphy/Desktop
   
+ =================================================================================================== 
   
-  
-# PhoneSploit tool 
+# Same thing can be done via PhoneSploit tool 
 git clone https://github.com/aerosol-can/PhoneSploit
 cd PhoneSploit
 pip3 install colorama
@@ -389,5 +389,5 @@ sdcard/Download/secret.txt
 <details>
 <summary>Covert</summary>
   
-> Covert_tcp (source code){covert_tcp.c}  
+> Covert_tcp [source code](covert_tcp.c)
 </details>
