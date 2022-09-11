@@ -1,4 +1,4 @@
-<img src="CEH-PRACTICAL-9-7-2022 (1).png" />  
+<img src="CEH-PRACTICAL-9-7-2022 (1).pnghh" />  
                                                                                                                           
 # Reconnasiance/Footprinting
 <details>
@@ -192,16 +192,18 @@ john SMB<filename>  ↵
 #  Website Hacking/Password Cracking
 <details>
 <summary>Website Cracking</summary>
-> SkipFish : Active Recon for Websites 
+
+* SkipFish : Active Recon for Websites 
   
 ```console
 skipfish -o 202 http://192.168.1.202/wordpress
 ```
 
-> Wordpress Site Login BruteForce [Step-By-Step](https://www.hackingarticles.in/multiple-ways-to-crack-wordpress-login/)
+* Wordpress Site Login BruteForce [Step-By-Step](https://www.hackingarticles.in/multiple-ways-to-crack-wordpress-login/)
+  
 ```shell
 # Wordpress site only Users Enumeration
-wpscan --url http://example.com/ceh --enumerate U 
+wpscan --url http://example.com/ceh --enumerate u 
 
 # Direct crack if we have user/password details
 
