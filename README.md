@@ -434,7 +434,9 @@ python -m SimpleHTTPServer
 ```
   
 > $python -m SimpleHTTPServer 9000
+ 
 > $python3 -m http.server 9000
+
 > nslookup www.domain.com
   
 [FTP Server](https://archive.org/download/file-zilla-server-0-9-5/FileZilla_Server_0_9_5.exe) 
