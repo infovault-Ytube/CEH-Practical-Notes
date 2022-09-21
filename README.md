@@ -420,3 +420,20 @@ sudo ./covert_tcp -dest 192.168.29.53 -source 192.168.29.123 -source_port 8888 -
 <img src="covertCapture.jpg" /> 
   
 </details>
+  
+  
+<details>
+  
+```shell
+# If Python version returned above is 3.X
+# On Windows, try "python -m http.server" or "py -3 -m http.server"
+python3 -m http.server
+# If Python version returned above is 2.X
+python -m SimpleHTTPServer
+```
+  
+> $python -m SimpleHTTPServer 9000
+> $python3 -m http.server 9000
+> nslookup www.domain.com
+[FTP Server](https://archive.org/download/file-zilla-server-0-9-5/FileZilla_Server_0_9_5.exe) [YOUTUBE](https://www.youtube.com/watch?v=_4a4qSaIIrw)
+</details>
