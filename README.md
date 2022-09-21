@@ -28,7 +28,7 @@
 ```console
 # Don’t ping=> -Pn, SYN scan=> -sS, Aggresive Scan=> -A, Normal_XML and Grepable format all at once=> -oA, Verbose=> -vv 
 
-nmap -Pn -sS -A -oA -vv <Filename> 10.10.1.1/24
+nmap -Pn -sS -A -oA <Filename> 10.10.1.1/24 -vv
 ```
 * Convert Nmap XML file to [HTML Report](https://nmap.org/book/output-formats-output-to-html.html/)
 ```console
@@ -50,11 +50,7 @@ run
 # Scanning Network
 <details>
   <summary>Scan Network</summary>
-
-* -1 for ICMP ping scan, ICMP-echo request randomly (--rand-dest)
-```console
-:~$ hping3 -1 10.0.1.255 --rand-dest –I eth0 
-```
+  
 * [Angry IP Scanner](https://angryip.org/download/#windows) of windows to Scan Entire Network
 </details>
   
