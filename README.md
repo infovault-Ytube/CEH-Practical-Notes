@@ -52,6 +52,7 @@ run
   <summary>Scan Network</summary>
   
 * [Angry IP Scanner](https://angryip.org/download/#windows) of windows to Scan Entire Network
+* [Advanced IP Scanner](https://www.advanced-ip-scanner.com/download/) free network scanner to analyze LAN
 </details>
   
 # ENUMERATION
