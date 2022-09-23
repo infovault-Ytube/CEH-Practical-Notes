@@ -1,4 +1,4 @@
-<img src="CEH-PRACTICAL-9-7-2022 (1).pnghh" />  
+<img src="CEH-PRACTICAL-9-7-2022 (1).png" />  
                                                                                                                           
 # Reconnasiance/Footprinting
 <details>
