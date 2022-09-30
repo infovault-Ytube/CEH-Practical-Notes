@@ -30,7 +30,7 @@
 
 nmap -Pn -sS -A -oA <Filename> 10.10.1.1/24 -vv
 ```
-* Convert Nmap XML file to [HTML Report](https://nmap.org/book/output-formats-output-to-html.html/)
+* Convert Nmap XML file to [HTML Report](https://nmap.org/book/output-formats-output-to-html/)
 ```console
 xsltproc <nmap-output.xml> -o <nmap-output.html>
 ```
@@ -350,7 +350,7 @@ sudo hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.43 http-post-fo
 <details>
 <summary>ADB</summary>
 
-> [Live Demo of ADB](https://youtu.be/Hvreb4hjsig)
+> [Live Demo of ADB](https://www.youtube.com/watch?v=Hvreb4hjsig)
 
   ```shell
 apt-get update
@@ -401,6 +401,7 @@ sdcard/Download/secret.txt
 <summary>Covert</summary>
   
 > Covert_tcp [source code](covert_tcp.c)
+> Live Demo [Covert TCP Live Demo-Youtube](https://www.youtube.com/watch?v=bDcz4qIpiQ4)
 
 ```shell
 # Compile the Code  
