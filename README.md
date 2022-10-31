@@ -459,7 +459,7 @@ Add GIF98 and upload and rename .php.jgp
 </details>
   
   
-  ### CEH Practical Questions:
-https://cutt.ly/ceh-practical-git-udemy
+  ### CEH Practical Exam Questions:
+https://cutt.ly/ceh-practical-git-udy
 
 Contact Me📨 for In-person Training/Queries: sendmehi@outlook.com
