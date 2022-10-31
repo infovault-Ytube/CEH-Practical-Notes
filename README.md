@@ -460,4 +460,6 @@ Add GIF98 and upload and rename .php.jgp
   
   
   ### CEH Practical Questions:
-  Contact Me📨: sendmehi@outlook.com
+https://cutt.ly/ceh-udemy-test
+
+Contact Me📨 for In-person Training/Queries: sendmehi@outlook.com
