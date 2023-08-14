@@ -369,7 +369,7 @@ adb pull sdcard/log.txt /home/mmurphy/Desktop
 # =================================================================================================== 
   
 # Same thing can be done via PhoneSploit tool 
-git clone https://github.com/aerosol-can/PhoneSploit
+git clone https://github.com/prbhtkumr/PhoneSploit
 cd PhoneSploit
 pip3 install colorama
 OR
